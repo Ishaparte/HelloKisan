@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*navbar styling*/
+.nav{
+    background-color: rgb(35, 156, 35);
+    height: 100px;
+
+}
+
+.crop{
+    width:50px;
+    margin: 5px;
+}
+
+.header{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    color: white;
+    padding-left: 5px;
+
+}
+
+.nav-ele{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 25px;
+    left: px;
+}
+
+.nav-ele:hover{
+    color: lawngreen;
+}
+
+nav button{
+ position: relative;
+ bottom: 70px;
+ left: 1050px;
+ border:none;
+ display: inline-block;
+ padding: 4px;
+ background-color: white;
+ font-family: 'Montserrat', sans-serif;
+ border-radius: 6px;
+ padding: 10px;
+ cursor: pointer;
+ color:rgb(35, 156, 35);
+}
+
+nav button:hover{
+    color: lawngreen;
+}
+
+/*img styling*/
+#img1{
+     width: 400px;
+    position: relative;
+    rigth:200px;
+
+}
+
+/*paragraph Styling*/
+.para{
+    padding: 70px;
+    top:10px;
+    font-size: 50px;
+}
+
+/*button styling*/
+#sell{
+    border:none;
+ display: inline-block;
+ padding: 4px;
+ background-color:rgb(35, 156, 35);
+ font-family: 'Montserrat', sans-serif;
+ border-radius: 6px;
+ padding: 10px;
+ cursor: pointer;
+ color:white;
+ position: relative;
+ bottom: 50px;
+}
+
+#sell:hover{
+    background-color: lawngreen;
+}
